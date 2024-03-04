@@ -17,7 +17,7 @@ const buttonVariants = cva(
 				ghost: "hover:bg-accent hover:text-accent-foreground",
 				link: "text-link underline-offset-4 underline",
 				icon: "hover:opacity-60 transition-all duration-300",
-				nav: "border border-input bg-background hover:text-accent-foreground hover:opacity-60 text-xs",
+				nav: "border border-solid border-buttonBorder bg-background hover:text-accent-foreground hover:opacity-60 text-xs",
 			},
 			size: {
 				default: "h-10 px-4 py-2",

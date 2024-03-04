@@ -11,7 +11,7 @@ export const NavigationButtons = ({ routes }: NavigationButtonsProps) => {
 	const location = useLocation();
 
 	const getButtonClassName = (path: string) => {
-		return `font-navigation ${location.pathname === path ? "" : "bg-inactiveNavButton"}`;
+		return `font-navigation ${location.pathname === path ? "bg-activeNavButton" : "bg-inactiveNavButton"}`;
 	};
 
 	return (

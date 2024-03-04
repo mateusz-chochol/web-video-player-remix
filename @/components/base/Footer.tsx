@@ -2,7 +2,7 @@ import { LogoIcon } from "@/svgs";
 
 export const Footer = () => {
 	return (
-		<footer className="h-24 w-full flex justify-center items-center">
+		<footer className="h-24 w-full flex justify-center items-center bg-footerBackground">
 			<div className="flex gap-12 w-[60%] min-w-[20rem] items-center justify-center">
 				<div className="flex items-center gap-4">
 					<LogoIcon className="h-[3.5rem]" />

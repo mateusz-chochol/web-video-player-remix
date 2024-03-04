@@ -4,7 +4,7 @@ export const DescriptionSection = () => {
 	return (
 		<div className="min-h-[16rem] w-full flex justify-center items-center mt-8 mb-8">
 			<div className="max-w-[60%] flex flex-col items-center justify-center gap-4">
-				<Badge className="h-[2.5rem] bg-white text-black border border-solid border-black p-6 font-exo">
+				<Badge className="h-[2.5rem] bg-lightGray text-black border border-solid border-buttonBorder p-6 font-exo">
 					EXAMPLE SECTION
 				</Badge>
 				<div>
