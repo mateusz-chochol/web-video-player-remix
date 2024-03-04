@@ -19,7 +19,7 @@ FROM base as components
 RUN mkdir /app
 WORKDIR /app
 
-ADD components /app/@/components
+ADD @/ /app/@/components
 
 FROM base as deps
 
